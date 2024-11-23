@@ -240,7 +240,8 @@
         backing (CloudStorageBucket. client (:location spec) (:bucket spec) store-path)
         config (merge {:opts               opts
                        :config             {:sync-blob? true
-                                            :in-place? false
+                                            :in-place? true
+                                            :no-update? true
                                             :lock-blob? true}
                        :default-serializer :FressianSerializer
                        :buffer-size        (* 1024 1024)}

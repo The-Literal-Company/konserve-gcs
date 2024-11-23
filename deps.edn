@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps {com.google.cloud/google-cloud-storage   {:mvn/version "2.42.0"}
-        io.replikativ/konserve                  {:mvn/version "0.7.315"
+        io.replikativ/konserve                  {:mvn/version "0.7.319"
                                                  :exclusions [com.github.pkpkpk/cljs-node-io
                                                               com.github.pkpkpk/fress
                                                               fress/fress
