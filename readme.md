@@ -3,7 +3,7 @@
 ```clojure
  litco/konserve-gcs
  {:git/url "https://github.com/The-Literal-Company/konserve-gcs.git"
-  :git/sha "2614d26d1ffa7cb05756c6ae81f3512ab9fc3436"}
+  :git/sha "ba77feeda3b5506914708b675ca42f7eb36a966c"}
 ```
 
 <hr>
